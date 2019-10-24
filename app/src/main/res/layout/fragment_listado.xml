@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".NEVEGACION.ListadoFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Lista de invitados"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right">
+
+        <EditText
+            android:id="@+id/et_invitado"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Busca por nombre, apellido o apodo"
+            android:inputType="text"
+            android:layout_weight=".99"/>
+
+        <ImageButton
+            android:id="@+id/iv_casa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/buscar"
+            android:layout_gravity="center"
+            android:background="#FAFAFA"
+            android:layout_weight=".01"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lv_invitados"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight=".8"/>
+
+        <ImageButton
+            android:id="@+id/iv_qr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_qr"
+            android:background="#fff"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>

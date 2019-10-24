@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipoInvitado">
+        <item> Tipo de invitado </item>
+        <item> a </item>
+        <item> b </item>
+        <item> c </item>
+        <item> d </item>
+        <item> e </item>
+
+    </string-array>
+
+
+</resources>

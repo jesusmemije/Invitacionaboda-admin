@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_principal"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_status"
+            android:icon="@drawable/ic_assistant_black_24dp"
+            android:title="Estatus general" />
+        <item
+            android:id="@+id/nav_listado"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="Lista de invitados" />
+        <item
+            android:id="@+id/nav_agregar"
+            android:icon="@drawable/ic_add_circle_black_24dp"
+            android:title="Agregar invitados" />
+        <item
+            android:id="@+id/nav_editar"
+            android:icon="@drawable/ic_mode_edit_black_24dp"
+            android:title="Editar invitados" />
+        <item
+            android:id="@+id/nav_lector"
+            android:icon="@drawable/ic_center_focus_weak_black_24dp"
+            android:title="Lector QR" />
+    </group>
+
+    <item android:title="Configuración">
+        <menu>
+            <item
+                android:id="@+id/nav_cerrar"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Cerrar sesión" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".NEVEGACION.ModificarFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Modificar datos de invitado"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <EditText
+            android:id="@+id/et_apodo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:hint="Apodo"
+            android:singleLine="true"/>
+        <EditText
+            android:id="@+id/et_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:hint="Nombre"
+            android:singleLine="true"/>
+        <EditText
+            android:id="@+id/et_apellidoPaterno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Apellido paterno"
+            android:singleLine="true"/>
+        <EditText
+            android:id="@+id/et_apellidoMaterno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Apellido materno"
+            android:singleLine="true"/>
+        <EditText
+            android:id="@+id/et_mesa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Mesa"
+            android:inputType="number"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/et_boletos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Número de boletos"
+            android:inputType="number"
+            android:singleLine="true" />
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner">
+        </Spinner>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+            <Button
+                android:id="@+id/btn_actualizar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Actualizar datos"
+                android:background="@color/colorPrimary"
+                android:textColor="#FFF"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:background="#6E6E6E"
+            android:text="Cancelar"/>
+
+    </LinearLayout>
+
+</LinearLayout>
