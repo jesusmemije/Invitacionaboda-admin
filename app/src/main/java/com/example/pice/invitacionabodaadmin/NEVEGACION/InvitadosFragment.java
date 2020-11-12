@@ -105,8 +105,6 @@ public class InvitadosFragment extends Fragment {
                         });
                 requestQueue2.add(jsObjectRequest);
 
-
-
                 ultima = posicion.getMesa();
 
                 despues = posicion.getNombre();
